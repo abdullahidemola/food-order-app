@@ -17,7 +17,7 @@ const Header = ({ showCart }) => {
       <header className="header">
         <h1>React meal</h1>
         <button className="cart-btn" onClick={showCart}>
-          <ShoppingCart size={32} weight="thin" />
+          <ShoppingCart size={32}/>
           <h4>Your cart</h4>
           <div className="indicator">
             <p className="amount-indicator">{numberOfItems}</p>
